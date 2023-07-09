@@ -1,0 +1,407 @@
+/* FONTS */
+
+	@font-face {
+		font-family: "Raleway";
+		src: url("assets/fonts/woff2/Raleway-Regular.woff2") format("woff2"),
+	         url("assets/fonts/woff/Raleway-Regular.woff") format("woff");
+	}
+
+	@font-face {
+		font-family: "Roboto";
+		src: url("assets/fonts/woff2/RobotoCondensed-Regular.woff2") format("woff2"),
+	         url("assets/fonts/woff/RobotoCondensed-Regular.woff") format("woff");
+	}
+
+	@font-face {
+		font-family: "Acme";
+		src: url("assets/fonts/woff2/Acme-Regular.woff2") format("woff2"),
+	         url("assets/fonts/woff/Acme-Regular.woff") format("woff");
+	}
+
+	@font-face {
+		font-family: "Louis Cafe";
+		src: url("assets/fonts/woff2/Louis-George-Cafe.woff2") format("woff2"),
+	         url("assets/fonts/woff/Louis-George-Cafe.woff") format("woff");
+	}
+
+	@font-face {
+		font-family: "Louis Cafe Light";
+		src: url("assets/fonts/woff2/Louis-George-Cafe-Light.woff2") format("woff2"),
+	         url("assets/fonts/woff/Louis-George-Cafe-Light.woff") format("woff");
+	}
+
+	@font-face {
+		font-family: "Louis Cafe Bold";
+		src: url("assets/fonts/woff2/Louis-George-Cafe-Bold.woff2") format("woff2"),
+	         url("assets/fonts/woff/Louis-George-Cafe-Bold.woff") format("woff");
+	}
+
+/* HEADER */
+
+	.header-content{
+    	display: flex;
+    	justify-content: center;
+    	align-items: center;
+    	position: fixed;
+  		left: 50%;
+  		transform: translate(-50%);
+  		z-index: 8;
+        background-color: #FF5400;
+        
+	}
+
+	#header-logo-link{
+		width: 75px;
+	}
+
+	#header-logo-link:hover{
+		transition: 0.3s;
+		opacity: 70%;
+	}
+   
+/* NAV */
+
+	nav a{
+	    color: white;
+	    text-decoration: none;
+	    font-family: Roboto;
+	    font-size: 90%;
+	    padding-left: 30px;
+	    padding-right: 30px;
+	    white-space: nowrap;
+	}
+
+	
+	nav a:hover{
+	    transition: 0.3s;
+	    color: #0C2136;
+	}
+
+	nav ul{
+	    list-style: none;
+	    display: inline-block;
+	    align-items: center;
+	    justify-content: center;
+	    float: left;
+	    margin-bottom: 0px;
+	}
+
+	#nav{
+	    display: flex;
+	}
+
+	.nav-separator{
+	    padding-left: 10px;
+	    padding-right: 10px;
+	    color: white;
+	}
+
+
+	.nav-account{
+		color: #359FCA;
+	}
+
+	.nav-account:hover{
+		transition: 0.3s;
+		color: #123746;
+	}
+
+	.nav-account-orange{
+		color: #103f6e;
+	}
+
+	.nav-account-orange:hover{
+		transition: 0.3s;
+		color: #0C2136;
+	}
+
+/* FOOTER */
+
+	.footer{
+		background-color: #FF5400;
+		font-size: 12px;
+        
+	}
+
+	.footer-text{
+		margin: 0;
+		padding: 10px;
+		padding-left: 15px;
+	}
+
+	.footer-links{
+		display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+        padding-top: 10px;
+        
+	}
+
+	.footer-link{
+		margin-left: 8px;
+		margin-right: 8px;
+        color: white;
+	}
+
+	.footer-link:hover{
+		opacity: 80%;
+		transform: scale(1.2);
+		transition: 0.3s;
+	}
+
+	footer{
+		background-color: #333;
+		color: white;
+	}
+
+	.footer-bottomtext{
+		padding: 10px;
+		text-align: center;
+		margin: 0;
+		font-size: 12px;
+	}
+
+    #logo-footer{
+            width: 100px;
+        }
+
+/* INDEX */
+
+button{
+    background-color: #FF5400;
+    color: white;
+}
+
+.index-section1{
+    padding-top: 22em;
+    padding-bottom: 15em;
+    background-image: url(assets/img/food/1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color:white;
+}
+
+.index-section2{
+    background-color: #FF5400;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    color:white;    
+    
+}
+
+.index-section3{
+    padding-top: 22em;
+    padding-bottom: 15em;
+    background-image: url(assets/img/tools/rafly-alfaridzy-mSupi19KDC4-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color:white;
+}
+
+.index-section4{
+    background-color: #FF5400;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    color:white; 
+}
+
+.index-section5{
+    background-color: #103f6e;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    color:white;
+}
+
+h2{
+  color: white;  
+}
+
+h3{
+    color: #FF5400;
+}
+
+.index-section1-text{
+    margin-left: 10em;
+}
+.index-p{
+    color: #FF5400;
+    font-size: 50px;
+    line-height: 1em;
+    background-color: white;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    padding-top: 0.4em;
+    
+}
+
+.index-section2-text{
+    text-align: right;
+}
+
+/*partenaires*/
+.partenaires-div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.logo-partenaires{
+    width: auto;
+    height: 4em;
+}
+
+.index-section-1-img{
+    height: 100px;
+}
+
+.index-section3-text{
+    margin-left: 10em;
+}
+
+.index-section5-text1{
+    margin-left: 4em;
+}
+.index-section5-text2{
+    margin-left: 10em;
+}
+
+#prestataire-img{
+    width:  5em;
+    margin-left: 2em;
+    
+}
+
+/* CUSTOMERS */
+
+#customers-content {
+    text-decoration: none;
+}
+
+.customers-content-1 {
+	background-image: url(assets/img/bg_main5.jpg);
+	text-decoration: none;
+	background-size: cover;
+    padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.customers-content-2 {
+	background-image: url(assets/img/bg_main6.jpg);
+	text-decoration: none;
+	background-size: cover;
+    padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+#space-div{
+    padding: 3em;
+}
+
+#inscrit {
+	font-size: 10em;
+	display: flex;
+	text-decoration: none;
+	align-content: center;
+	justify-content: center;
+	color: white;
+}
+
+#connecte {
+	font-size: 10em;
+	display: flex;
+	text-decoration: none;
+	align-content: center;
+	justify-content: center;
+	color: black;
+}
+
+#inscrit:hover {
+	transition: 0.5s;
+	text-decoration: none;
+	color: #103f6e;
+}
+
+#connecte:hover {
+	transition: 0.5s;
+	text-decoration: none;
+	color: #103f6e;
+}
+
+/* LOGIN */
+.login-div {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.login-text{
+   display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 2em;
+}
+
+.login-submit{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #103f6e;
+    color:white;
+    padding-right: 2.9em;
+    padding-left: 2.9em;
+}
+
+#bandeau-1-demi{
+    padding-left: 49em;
+    justify-content: center;
+    align-content: center;
+}
+
+.login-input{
+    width: 319px;
+}
+
+/*SIGNUP */
+
+input[type="submit"]{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #103f6e;
+    color:white;
+    padding-right: 7em;
+    padding-left: 7em;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.signup-label{
+    display: block;
+  margin-bottom: 5px;
+}
+
+.signup-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
