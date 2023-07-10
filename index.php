@@ -19,7 +19,6 @@
                     <h1>Une nouvelle approche de la cuisine</h1>
                     <p class="index-p">Apprenez à cuisiner plus facilement et plus rapidement. Défiez les grands chefs!</p>
                     <button onclick="window.location.href = 'services.php';">Découvrir</button>
-                    <button onclick="window.location.href = 'bdd/db_migration.php';">test</button>
                 </div>
             </div>
         </section>
