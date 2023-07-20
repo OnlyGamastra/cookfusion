@@ -27,7 +27,7 @@
             <div class="index-section-container">
                 <div class="index-section-text container">
                     <h1>Découvrez notre nouvelle application</h1>
-                    <button onclick="window.location.href = 'services.php';">Découvrir</button>
+                    <button onclick="window.location.href = 'https://github.com/EMatosin/CookMaster';">Découvrir</button>
                 </div>
                 <img src="assets/img/application-mobile.png" alt="logo" id="index-phone">
             </div>
